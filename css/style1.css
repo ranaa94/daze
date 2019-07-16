@@ -1,0 +1,36 @@
+/*
+	Snippet by:- Vijay Sasavadiya;
+	e-mail:- vijaysasavadiya.vs@gmail.com;
+*/
+
+
+
+.dropdown-menu{padding:0;border-color:#e7e7e7;-webkit-border-radius:0;
+	-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;
+	-webkit-box-shadow:none;-moz-box-shadow:none;-ms-box-shadow:none;
+	-o-box-shadow:none;box-shadow:none}
+.dropdown-menu>li>a{padding:5px 15px}
+.open.dropdown-menu.mega{display:block}
+.dropdown-menu.mega>.sub-menu{display:table-cell;border-left:1px solid #e7e7e7;list-style-type:none;padding:0;min-width:180px}
+.dropdown-menu.mega>.sub-menu:first-child{border-left:none;padding-left:0}
+.dropdown-menu.mega>.sub-menu>li>a{display:block;padding:5px 15px;text-decoration:none}
+.dropdown-header{padding:5px 15px;color:#777;font-weight:bold;border-bottom:1px dashed #e7e7e7;margin-left:40px;}
+
+
+@media (min-width:200px){.navbar-nav>li>a{padding-top:20px;padding-bottom:20px}
+.dropdown .dropdown-menu{-webkit-transform-origin:top;-moz-transform-origin:top;
+	-ms-transform-origin:top;-o-transform-origin:top;transform-origin:top;
+	-webkit-animation-fill-mode:forwards;-moz-animation-fill-mode:forwards;
+
+	-ms-animation-fill-mode:forwards;-o-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;-webkit-transform:scale(1,0);-moz-transform:scale(1,0);
+	-ms-transform:scale(1,0);-o-transform:scale(1,0);transform:scale(1,0);
+	-webkit-transition:all 200ms ease 0s;-moz-transition:all 200ms ease 0s;-o-transition:all 200ms ease 0s;
+	transition:all 200ms ease 0s;display:block}.dropdown:hover .dropdown-menu,.dropdown.open
+	 .dropdown-menu{-webkit-transform:scale(1);-moz-transform:scale(1);
+	 	-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1)}}
+@media (max-width: 250px){}
+	
+	.dropdown-menu.mega>.sub-menu{display:}.dropdown-menu.mega>.sub-menu>li>a{padding-left:60px}}
+
+/*Below css is not required for navbar desiginig*/
